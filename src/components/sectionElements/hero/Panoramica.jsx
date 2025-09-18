@@ -35,7 +35,7 @@ export default function Panoramica({ appDownloadButtons }) {
         <div className="w-full bg-top bg-repeat font-mainFont bg-bgSectionDark desktop1:hidden">
           <div className="relative z-10 flex w-full bg-minititleDarkLabel bg-opacity-0 items-left">
             <div className="w-full text-secondary justify-evenly">
-              <div className="h-[130px] desktop3:h-[140px]" />
+              <div className="h-[90px] desktop3:h-[140px]" />
               <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
                 <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <MotionDivDownToUp>

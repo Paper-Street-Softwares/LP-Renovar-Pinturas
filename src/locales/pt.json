@@ -83,11 +83,11 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "Sobre Nós",
+    "title": "15 anos de experiência",
+    "subtitle": "Profissionalismo e dedicação em cada projeto, garantindo qualidade e confiança.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
+    "paragraph": "Há 15 anos transformamos ambientes com atenção aos detalhes, oferecendo preparação de paredes, texturas, impermeabilização e instalação de forros. Nossa missão é entregar resultados duráveis e esteticamente impecáveis, sempre com profissionalismo e cuidado com cada cliente.",
     "modal": "a_Definir <br/><br/> a_Definir <br/><br/> a_Definir <br/><br/>",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
@@ -102,7 +102,7 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text- font-bold\">Precisa transformar seu espaço? Conte com nossa experiência para cuidar de tudo.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -115,22 +115,22 @@
       "card1": {
         "stepNumber": 1,
         "cardTitle": "Consulta inicial",
-        "cardDescription": "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas."
+        "cardDescription": "Realizamos uma visita ou reunião para entender seu projeto, analisando suas necessidades e expectativas."
       },
       "card2": {
         "stepNumber": 2,
         "cardTitle": "Análise detalhada",
-        "cardDescription": "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa."
+        "cardDescription": "Examinamos o local, avaliamos paredes, superfícies e condições estruturais para planejar o melhor serviço."
       },
       "card3": {
         "stepNumber": 3,
         "cardTitle": "Elaboração da estratégia",
-        "cardDescription": "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz."
+        "cardDescription": "Criamos um plano de execução personalizado, definindo materiais, técnicas e prazos ideais para o seu projeto."
       },
       "card4": {
         "stepNumber": 4,
-        "cardTitle": "Ação legal",
-        "cardDescription": "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso."
+        "cardTitle": "Execução do serviço",
+        "cardDescription": "Realizamos a obra ou reforma, garantindo qualidade, acabamento impecável e respeito aos prazos acordados."
       }
     }
   },
@@ -148,20 +148,20 @@
     "subtitle": "Confira as perguntas abaixo para esclarecer suas dúvidas.",
     "questions": {
       "question1": {
-        "question": "Como posso contratar seus serviços?",
-        "answer": "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos."
+        "question": "Quanto tempo leva para concluir o serviço?",
+        "answer": "O prazo varia conforme o tipo e tamanho do projeto, mas fornecemos uma estimativa detalhada após a visita inicial e avaliação do local."
       },
       "question2": {
-        "question": "Qual é o prazo médio para resolução de um caso?",
-        "answer": "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial."
+        "question": "Vocês fornecem os materiais ou o cliente precisa comprá-los?",
+        "answer": "Podemos trabalhar de ambas as formas: usamos materiais fornecidos pelo cliente ou indicamos e fornecemos materiais de alta qualidade."
       },
       "question3": {
-        "question": "Quais documentos devo levar para a consulta?",
-        "answer": "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência."
+        "question": "Como garantir a qualidade e durabilidade do serviço?",
+        "answer": "Nossa equipe possui 15 anos de experiência, utiliza técnicas modernas e realiza acabamento cuidadoso, garantindo resultados duráveis e esteticamente impecáveis."
       },
       "question4": {
-        "question": "Vocês oferecem serviços de consultoria preventiva?",
-        "answer": "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal."
+        "question": "Posso acompanhar o andamento da obra?",
+        "answer": "Sim! Mantemos comunicação constante, mostramos cada etapa do processo e estamos disponíveis para esclarecer dúvidas durante todo o projeto."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
