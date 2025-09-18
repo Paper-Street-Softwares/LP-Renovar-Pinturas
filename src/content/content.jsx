@@ -56,8 +56,8 @@ export const infos = {
   domain: "pinturasrenovar.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "91681", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "1317", // Apenas os 4 últimos números
+    firstPart: "97571", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "9191", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "A_Definir",
