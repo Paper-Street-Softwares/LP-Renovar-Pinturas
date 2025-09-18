@@ -17,12 +17,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "RENOVAR PINTURAS",
+    "title": "Transformamos seu espaço com excelência <span class=\"text-primary font-bold\"></span>",
+    "subtitle": "Serviços de paredes, texturas, impermeabilização e forros com qualidade e profissionalismo.",
+    "ctaButtonText": "Solicite seu orçamento",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento personalizado e resultados duradouros para cada projeto."
     }
   },
   "features": {
