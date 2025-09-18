@@ -59,6 +59,8 @@ export default function About({
             type="article"
             titleColorSet={titleColor}
             subtitleColorSet={subtitleColor}
+            miniTitleBgColor="bg-minititleDark"
+            miniTitleTextColor="text-minititleLightLabel"
           />
           <MotionDivDownToUp>
             {modal ? (

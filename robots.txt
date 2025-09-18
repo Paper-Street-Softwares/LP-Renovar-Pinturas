@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://www.kairosartsgrafica.com.br/sitemap.xml
+Sitemap: https://www.pinturasrenovar.com.br/sitemap.xml
 

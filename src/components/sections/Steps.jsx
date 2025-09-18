@@ -43,6 +43,8 @@ export default function Steps({ colorMode }) {
             sectionHeaderSubtitle={t("steps.subtitle")}
             type="article"
             titleColorSet={titleColor}
+            miniTitleBgColor="bg-minititleDark"
+            miniTitleTextColor="text-minititleLightLabel"
           />
           <SectionHeader
             className="text-center desktop1:hidden"
@@ -52,6 +54,8 @@ export default function Steps({ colorMode }) {
             color={colorMode ? "light" : ""}
             type={colorMode ? "" : "article"}
             titleColorSet={titleColor}
+            miniTitleBgColor="bg-minititleDark"
+            miniTitleTextColor="text-minititleLightLabel"
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">

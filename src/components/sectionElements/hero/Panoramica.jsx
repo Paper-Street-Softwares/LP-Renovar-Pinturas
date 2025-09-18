@@ -35,9 +35,9 @@ export default function Panoramica({ appDownloadButtons }) {
         <div className="w-full bg-top bg-repeat font-mainFont bg-bgSectionDark desktop1:hidden">
           <div className="relative z-10 flex w-full bg-minititleDarkLabel bg-opacity-0 items-left">
             <div className="w-full text-secondary justify-evenly">
-              <div className="h-[130px] desktop3:h-[140px]" />
-              <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
-                <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+              <div className="h-[90px] desktop3:h-[140px]" />
+              <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
+                <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                       <p className="mb-[16px] bg-minititleDarkLabel text-primary bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
@@ -171,16 +171,16 @@ export default function Panoramica({ appDownloadButtons }) {
                 <div className="w-full text-secondary ">
                   <div className="desktop1:h-[100px]" />
                   <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between w-full items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
-                    <div className="flex flex-col w-full desktop1:w-[50%] ">
+                    <div className="flex flex-col w-full desktop1:w-full ">
                       <MotionDivDownToUp>
-                        <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
+                        <div className="flex justify-center w-auto text-center desktop1:justify-center desktop1:text-center font-secondFont text-paragraph4">
                           <p className="mb-[16px] bg-primary text-minititleDarkLabel bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
                             {t("hero.miniTag")}
                           </p>
                         </div>
                       </MotionDivDownToUp>
                       <MotionDivDownToUp>
-                        <div className="text-primary flex justify-center desktop1:justify-start font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                        <div className="text-primary flex justify-center desktop1:justify-center font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                           <h1>
                             <span
                               dangerouslySetInnerHTML={{
@@ -191,14 +191,14 @@ export default function Panoramica({ appDownloadButtons }) {
                         </div>
                       </MotionDivDownToUp>
                       <MotionDivDownToUp>
-                        <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-start font-secondFont text-paragraph4 phone3:text-paragraph5">
+                        <div className="flex justify-center w-full text-center desktop1:text-left desktop1:justify-center font-secondFont text-paragraph4 phone3:text-paragraph5">
                           <p className="text-primary mb-[32px] ">
                             {t("hero.subtitle")}{" "}
                           </p>
                         </div>
                       </MotionDivDownToUp>
                       <div className="w-full phone2:w-full tablet2:w-auto">
-                        <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
+                        <div className="flex justify-center w-full desktop1:justify-center mb-[32px]">
                           <Button
                             aria-label={t("hero.ctaButtonAriaLabel")}
                             label={t("hero.ctaButtonText")}
@@ -218,7 +218,7 @@ export default function Panoramica({ appDownloadButtons }) {
                           />
                         </div>
                         <MotionDivDownToUp>
-                          <div className="flex justify-center desktop1:justify-start">
+                          <div className="flex justify-center desktop1:justify-center">
                             <div className="flex flex-col items-center desktop1:flex-row text-primary">
                               {content.texts.hero.obsHero.icon}
                               <p className="text-primary  ml-[10px] text-center mt-[12px] desktop1:mt-0">

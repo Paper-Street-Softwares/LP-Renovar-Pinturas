@@ -64,7 +64,7 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
                     <FooterSocialIcons
-                      instagram={true}
+                      instagram={false}
                       facebook={false}
                       linkedin={false}
                       tiktok={false}

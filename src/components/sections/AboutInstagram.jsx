@@ -44,6 +44,8 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               type="article"
               titleColorSet={textClass}
               subtitleColorSet={textClass}
+              miniTitleBgColor="bg-minititleDark"
+              miniTitleTextColor="text-minititleLightLabel"
             />
           </MotionDivDownToUp>
           <ParagraphsAboutSocial colorMode={colorMode} />
