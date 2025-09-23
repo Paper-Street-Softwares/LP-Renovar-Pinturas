@@ -14,7 +14,7 @@ export default function Steps({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "bg-bgSectionDark",
+    default: "bg-transparent",
   };
   const textClasses = {
     dark: "text-white",
@@ -25,71 +25,79 @@ export default function Steps({ colorMode }) {
   const titleColor = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea className={`${bgClass}`} paddingbot={true}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
-          <img
-            src={content.texts.steps.img}
-            alt={content.texts.steps.img}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
-          />
-        </MotionDivDownToUp>
+    <div
+      style={{
+        backgroundImage: `url(${content.texts.cta.paralaxe})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      <SectionArea className={`${bgClass}`} paddingbot={true}>
+        <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
+          <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
+            <img
+              src={content.texts.steps.img}
+              alt={content.texts.steps.img}
+              className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
+            />
+          </MotionDivDownToUp>
 
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
-          <SectionHeader
-            className="hidden text-center desktop1:flex"
-            miniTitle={t("steps.miniTag")}
-            sectionHeaderTitle={t("steps.title")}
-            sectionHeaderSubtitle={t("steps.subtitle")}
-            type="article"
-            titleColorSet={titleColor}
-            miniTitleBgColor="bg-minititleDark"
-            miniTitleTextColor="text-minititleLightLabel"
-          />
-          <SectionHeader
-            className="text-center desktop1:hidden"
-            miniTitle={t("steps.miniTag")}
-            sectionHeaderTitle={t("steps.title")}
-            sectionHeaderSubtitle={t("steps.subtitle")}
-            color={colorMode ? "light" : ""}
-            type={colorMode ? "" : "article"}
-            titleColorSet={titleColor}
-            miniTitleBgColor="bg-minititleDark"
-            miniTitleTextColor="text-minititleLightLabel"
-          />
+          <div className="desktop1:w-[550px] desktop2:w-[570px]">
+            <SectionHeader
+              className="hidden text-center desktop1:flex"
+              miniTitle={t("steps.miniTag")}
+              sectionHeaderTitle={t("steps.title")}
+              sectionHeaderSubtitle={t("steps.subtitle")}
+              type="article"
+              titleColorSet={titleColor}
+              miniTitleBgColor="bg-minititleDark"
+              miniTitleTextColor="text-minititleLightLabel"
+            />
+            <SectionHeader
+              className="text-center desktop1:hidden"
+              miniTitle={t("steps.miniTag")}
+              sectionHeaderTitle={t("steps.title")}
+              sectionHeaderSubtitle={t("steps.subtitle")}
+              color={colorMode ? "light" : ""}
+              type={colorMode ? "" : "article"}
+              titleColorSet={titleColor}
+              miniTitleBgColor="bg-minititleDark"
+              miniTitleTextColor="text-minititleLightLabel"
+            />
 
-          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-            <HowItWorksCard
-              number={t("steps.cards.card1.stepNumber")}
-              title={t("steps.cards.card1.cardTitle")}
-              description={t("steps.cards.card1.cardDescription")}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={t("steps.cards.card2.stepNumber")}
-              title={t("steps.cards.card2.cardTitle")}
-              description={t("steps.cards.card2.cardDescription")}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={t("steps.cards.card3.stepNumber")}
-              title={t("steps.cards.card3.cardTitle")}
-              description={t("steps.cards.card3.cardDescription")}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={t("steps.cards.card4.stepNumber")}
-              title={t("steps.cards.card4.cardTitle")}
-              description={t("steps.cards.card4.cardDescription")}
-              animation
-              colorMode={colorMode}
-            />
+            <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
+              <HowItWorksCard
+                number={t("steps.cards.card1.stepNumber")}
+                title={t("steps.cards.card1.cardTitle")}
+                description={t("steps.cards.card1.cardDescription")}
+                animation
+                colorMode={colorMode}
+              />
+              <HowItWorksCard
+                number={t("steps.cards.card2.stepNumber")}
+                title={t("steps.cards.card2.cardTitle")}
+                description={t("steps.cards.card2.cardDescription")}
+                animation
+                colorMode={colorMode}
+              />
+              <HowItWorksCard
+                number={t("steps.cards.card3.stepNumber")}
+                title={t("steps.cards.card3.cardTitle")}
+                description={t("steps.cards.card3.cardDescription")}
+                animation
+                colorMode={colorMode}
+              />
+              <HowItWorksCard
+                number={t("steps.cards.card4.stepNumber")}
+                title={t("steps.cards.card4.cardTitle")}
+                description={t("steps.cards.card4.cardDescription")}
+                animation
+                colorMode={colorMode}
+              />
+            </div>
           </div>
-        </div>
-      </SectionWrapper>
-    </SectionArea>
+        </SectionWrapper>
+      </SectionArea>
+    </div>
   );
 }

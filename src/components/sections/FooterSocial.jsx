@@ -38,6 +38,11 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
   return (
     <footer
       className={`full gap-y-[42px] font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center ${footerBackground} ${textColor}`}
+      style={{
+        backgroundImage: `url(${content.texts.cta.paralaxe})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">

@@ -4,6 +4,7 @@ import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
+import Paralaxe from "../assets/imgs/paralaxe/bgParalaxe1.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
@@ -478,6 +479,7 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
+      paralaxe: Paralaxe,
       miniTag: "FALE CONOSCO",
       title:
         "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
