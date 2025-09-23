@@ -37,12 +37,13 @@ export default function Features6cards({ colorMode }) {
   return (
     <SectionArea id="service" className={`${bgClass}`}>
       <SectionHeader
-        className={`text-center ${textClass}`}
+        className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={t("features.title")}
         sectionHeaderSubtitle={t("features.subtitle")}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
+        colorMode="dark"
       />
 
       <SectionWrapper>

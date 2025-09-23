@@ -59,15 +59,15 @@
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Pintura Residencial",
+      "subtitle": "Transforme sua casa com cores e acabamentos de qualidade.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Pintura Empresarial",
+      "subtitle": "Soluções profissionais para ambientes corporativos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
